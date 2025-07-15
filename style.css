@@ -1,0 +1,56 @@
+.wrapper{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    align-items: flex-start;
+    
+}
+#wrapperPlusSidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+.About_me{
+    width: 95%;
+}
+img{
+    height: 200px;
+    float: right;
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.searchbar{
+    border-top: 2px solid black;
+    
+}
+.recentComments{
+     border-top: 2px solid black;
+     
+
+}
+.archives{
+     border-top: 2px solid black;
+     
+}
+.Categories{
+    border-top: 2px solid black;
+    
+}
+.meatData{
+    border-top: 2px solid black;
+    
+
+}
+
